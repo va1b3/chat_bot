@@ -1,0 +1,15 @@
+{
+    "name": "fefu/chat_bot",
+    "description": "Chatbot with FEFU info functions and ChatGPT implementation",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/http-foundation": "^6.4",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
